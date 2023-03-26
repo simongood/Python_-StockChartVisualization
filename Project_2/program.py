@@ -150,13 +150,13 @@ def plot_line(x: range, sup_sty: tuple,
     if FTTT == True and dif_dif_weight[-1] * dif_dif_weight[-2] < 0:
         FTTT = False
         if dif_dif_weight[-2] < 0:
-            requests.get("https://maker.ifttt.com/trigger/Monitor/with/key/5ZeIUkDLXYS9-cRBiGqcBE-qwY33akt4a0xIJpffcr?value1=:<br>dif_dif_weight color changed<br><br>Green to red")
+            requests.get("****")
         elif dif_dif_weight[-2] > 0:
-            requests.get("https://maker.ifttt.com/trigger/Monitor/with/key/5ZeIUkDLXYS9-cRBiGqcBE-qwY33akt4a0xIJpffcr?value1=:<br>dif_dif_weight color changed<br><br>red to green")
+            requests.get("****")
         elif dif_dif_weight[-2] == 0:
-            requests.get("https://maker.ifttt.com/trigger/Monitor/with/key/5ZeIUkDLXYS9-cRBiGqcBE-qwY33akt4a0xIJpffcr?value1=:<br>dif_dif_weight color compressed")
+            requests.get("****")
         else:
-            requests.get("https://maker.ifttt.com/trigger/Monitor/with/key/5ZeIUkDLXYS9-cRBiGqcBE-qwY33akt4a0xIJpffcr?value1=:<br>bug happend")
+            requests.get("****")
 
 
 # //////////////////////////////////////////////////////////////////////////////////
